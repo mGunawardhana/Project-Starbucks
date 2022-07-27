@@ -57,3 +57,32 @@ header ul li a
     margin-left: 40px;
     text-decoration: none;
 }
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2
+{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span
+{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
