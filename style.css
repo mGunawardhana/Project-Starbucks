@@ -104,3 +104,18 @@ header ul li a
     letter-spacing: 1px;
     text-decoration: none;
 }
+
+/*image move or resize*/
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img
+{
+    max-width: 340px;
+}
