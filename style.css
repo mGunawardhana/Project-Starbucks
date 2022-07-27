@@ -80,9 +80,27 @@ header ul li a
     font-weight: 500;
 }
 
+/*starbucks keyword bold and colour */
 .content .textBox h2 span
 {
     color: #017143;
     font-size: 1.2em;
     font-weight: 900;
+}
+
+.content .textBox p{
+    color: #333;
+}
+
+/*learn more button*/
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
