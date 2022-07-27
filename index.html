@@ -16,6 +16,8 @@
 <body>
 
 <section>
+<!--    creating css circle-->
+    <div class="circle"></div>
 
     <header>
 
@@ -51,9 +53,9 @@
     </div>
 
     <ul class="thumb">
-        <li><img alt="" src="assets/thumb1.png"></li>
-        <li><img alt="" src="assets/thumb2.png"></li>
-        <li><img alt="" src="assets/thumb3.png"></li>
+        <li><img alt="" src="assets/thumb1.png" onclick="imgSlider('assets/img1.png')"></li>
+        <li><img alt="" src="assets/thumb2.png" onclick="imgSlider('assets/img2.png')"></li>
+        <li><img alt="" src="assets/thumb3.png" onclick="imgSlider('assets/img3.png')"></li>
     </ul>
 
     <ul class="sci">
@@ -63,7 +65,11 @@
     </ul>
 
 </section>
-
+<script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.starbucks').src=anything;
+    }
+</script>
 </body>
 
 </html>
