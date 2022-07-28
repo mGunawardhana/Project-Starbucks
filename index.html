@@ -8,15 +8,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Starbucks Website Landing Page</title>
+    <meta charset="utf-8">
+    <title>mGunawardhana's Personal Web</title>
+
+    <!-- drop my site url here -->
+    <link rel="localhost">
+
+    <meta content="starbucks, coffee, best coffee chain" name="keywords">
     <link href="style.css" rel="stylesheet">
+
+    <meta content="MR.Gunawardhana" name="author">
+    <meta content="MR. Gunawardhana" name="owner">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
-
 <body>
-
 <section>
-<!--    creating css circle-->
+    <!--    creating css circle-->
     <div class="circle"></div>
 
     <header>
@@ -53,9 +63,9 @@
     </div>
 
     <ul class="thumb">
-        <li><img alt="" src="assets/thumb1.png" onclick="imgSlider('assets/img1.png')"></li>
-        <li><img alt="" src="assets/thumb2.png" onclick="imgSlider('assets/img2.png')"></li>
-        <li><img alt="" src="assets/thumb3.png" onclick="imgSlider('assets/img3.png')"></li>
+        <li><img alt="" onclick="imgSlider('assets/img1.png');changeCircleColor('#017143')" src="assets/thumb1.png"></li>
+        <li><img alt="" onclick="imgSlider('assets/img2.png');changeCircleColor('#eb7495')" src="assets/thumb2.png"></li>
+        <li><img alt="" onclick="imgSlider('assets/img3.png');changeCircleColor('#d752b1')" src="assets/thumb3.png"></li>
     </ul>
 
     <ul class="sci">
@@ -66,10 +76,17 @@
 
 </section>
 <script type="text/javascript">
-    function imgSlider(anything){
-        document.querySelector('.starbucks').src=anything;
+    function imgSlider(anything) {
+        document.querySelector('.starbucks').src = anything;
+    }
+    // matching colour with image and circle
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background=color;
     }
 </script>
 </body>
-
+<!--
+TO-DO
+stop at 14.36PM-->
 </html>
