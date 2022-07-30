@@ -3,4 +3,4 @@
 ## this is a sample project of Starbucks landing page
 
 
-![Screenshot (1049)](https://user-images.githubusercontent.com/100486080/181421904-ffa20bf3-a6c8-4ece-8fa4-549cfb8302e1.png)
+![Add a heading](https://user-images.githubusercontent.com/100486080/181935086-208cb48d-e2a1-4839-a44b-29f5680de350.png)
